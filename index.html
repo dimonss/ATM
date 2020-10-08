@@ -10,46 +10,48 @@
 		<div id="div2">
 			<H1>ATM</H1>
 			<input type="text" id="mainWindow" disabled>
-			<table>
+			<table id = "mainTable">
 				<tr>
-					<td><button onclick="insert(1)">1</button></td>
-					<td><button onclick="insert(2)">2</button></td>
-					<td><button onclick="insert(3)">3</button></td>
-				</tr>
-				<tr>
-					<td><button onclick="insert(4)">4</button></td>
-					<td><button onclick="insert(5)">5</button></td>
-					<td><button onclick="insert(6)">6</button></td>
-				</tr>
-				<tr>
-					<td><button onclick="insert(7)">7</button></td>
-					<td><button onclick="insert(8)">8</button></td>
-					<td><button onclick="insert(9)">9</button></td>
-				</tr>
-				<tr>
-					<td><button onclick="back()">&lt</button></td>
-					<td><button onclick="insert(0)">0</button></td>
-					<td><button onclick="result()" style="background-color: #44e044;">ok</button></td>
+					<td>
+					<table id = "tableNumpad">
+						<tr>
+							<td><button onclick="insert(1)">1</button></td>
+							<td><button onclick="insert(2)">2</button></td>
+							<td><button onclick="insert(3)">3</button></td>
+						</tr>
+						<tr>
+							<td><button onclick="insert(4)">4</button></td>
+							<td><button onclick="insert(5)">5</button></td>
+							<td><button onclick="insert(6)">6</button></td>
+						</tr>
+						<tr>
+							<td><button onclick="insert(7)">7</button></td>
+							<td><button onclick="insert(8)">8</button></td>
+							<td><button onclick="insert(9)">9</button></td>
+						</tr>
+						<tr>
+							<td><button onclick="back()">&lt</button></td>
+							<td><button onclick="insert(0)">0</button></td>
+							<td><button onclick="result()" style="background-color: #44e044;">ok</button></td>
+						</tr>
+					</table>
+					</td>
+					<td>
+						<table>
+							<td>
+								<tr><hr align="center" width="150" size="20" color="black" padding="300" /></tr>
+								<tr>
+									<img onclick="includeCard()" id="imgCard" src="visa.png" width="150" height="270" align="center">
+								</tr>
+							</td>
+						</table>
+					</td>
 				</tr>
 			</table>
 		</div>
 	</div>
-<table>
-	<tr>
-		<td colspan="4"><input type="text" id = "textBox" disabled></td>
-	</tr>
-	<tr>
-		<td><button id="Bancnote20" onclick="insert(20)">20</button></td>
-		<td><button id="Bancnote50" onclick="insert(50)">50</button></td>
-		<td><button id="Bancnote100" onclick="insert(100)">100</button></td>
-		<td><button id="Bancnote200" onclick="insert(200)">200</button></td>
-	</tr>
-	<tr>
-		<td><button id="Bancnote500" onclick="insert(500)">500</button></td>
-		<td><button id="Bancnote1000" onclick="insert(1000)">1000</button></td>
-		<td><button id="Bancnote2000" onclick="insert(2000)">2000</button></td>
-		<td><button id="Bancnote5000" onclick="insert(5000)">5000</button></td>
-	</tr>
-</table>
+	<td colspan="4"><input type="text" id = "textBox" disabled></td>
+
+
 </body>
 </html>

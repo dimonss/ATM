@@ -13,165 +13,16 @@ button:active{
 	box-shadow: 0 3px #666; 
 	transform: translateY(2px);
 }
-#Bancnote20{
-	font-size: 45px;
-	padding-bottom: 5px;
-	padding-top: 5px; 
-	background-color: #F36B86;
-	width: 200px;
-}
-#Bancnote20:hover{
-	font-size:47px;
-	padding-bottom: 4px;
-	padding-top: 4px; 
-}
-
-#Bancnote20:active{
-	box-shadow: 0 3px #666;
-	transform: translateY(3px);
-}
-#Bancnote50{
-	font-size: 45px;
-	padding-bottom: 5px;
-	padding-top: 5px; 
-	background-color: #D79640;
-	width: 200px;
-}
-#Bancnote50:hover{
-	font-size:47px;
-	padding-bottom: 4px;
-	padding-top: 4px; 
-}
-
-#Bancnote50:active{
-	box-shadow: 0 3px #666;
-	transform: translateY(3px);
-}
-#Bancnote100{
-	font-size: 45px;
-	padding-bottom: 5px;
-	padding-top: 5px; 
-	background-color: #6B8FF3;
-	width: 200px;
-}
-
-#Bancnote100:hover{
-	font-size:47px;
-	padding-bottom: 4px;
-	padding-top: 4px; 
-}
-
-#Bancnote100:active{
-	box-shadow: 0 3px #666;
-	transform: translateY(3px);
-}
-
-#Bancnote200:hover{
-	font-size:47px;
-	padding-bottom: 4px;
-	padding-top: 4px; 
-}
-
-#Bancnote200:active{
-	box-shadow: 0 3px #666;
-	transform: translateY(3px);
-}
-#Bancnote200{
-	font-size: 45px;
-	padding-bottom: 5px;
-	padding-top: 5px; 
-	background-color: #F3CA6B;
-	width: 200px;
-}
-#Bancnote200:hover{
-	font-size:47px;
-	padding-bottom:4px;
-	padding-top: 4px; 
-}
-
-#Bancnote200:active{
-	box-shadow: 0 3px #666;
-	transform: translateY(3px);
-}
-#Bancnote500{
-	font-size: 45px;
-	padding-bottom: 5px;
-	padding-top: 5px; 
-	background-color: #D569D2;
-	width: 200px;
-}
-#Bancnote500:hover{
-	font-size:47px;
-	padding-bottom:4px;
-	padding-top: 4px; 
-}
-
-#Bancnote500:active{
-	box-shadow: 0 3px #666;
-	transform: translateY(3px);
-}
-#Bancnote1000{
-	font-size: 45px;
-	padding-bottom: 5px;
-	padding-top: 5px; 
-	background-color: #989898;
-	width: 200px;
-}
-#Bancnote1000:hover{
-	font-size:47px;
-	padding-bottom: 4px;
-	padding-top: 4px; 
-}
-
-#Bancnote1000:active{
-	box-shadow: 0 3px #666;
-	transform: translateY(3px);
-}
-#Bancnote2000{
-	font-size: 45px;
-	padding-bottom: 5px;
-	padding-top: 5px; 
-	background-color: #3DB3D7;
-	width: 200px;
-}
-#Bancnote2000:hover{
-	font-size:47px;
-	padding-bottom: 4px;
-	padding-top: 4px; 
-}
-
-#Bancnote2000:active{
-	box-shadow: 0 3px #666;
-	transform: translateY(3px);
-}
-#Bancnote5000{
-	font-size: 45px;
-	padding-bottom: 5px;
-	padding-top: 5px; 
-	background-color: #41B551;
-	width: 200px;
-}
-#Bancnote5000:hover{
-	font-size:47px;
-	padding-bottom: 4px;
-	padding-top: 4px; 
-}
-
-#Bancnote5000:active{
-	box-shadow: 0 3px #666;
-	transform: translateY(3px);
-}
 #textBox{
-	font-size: 45px;
-	padding-bottom: 5px;
-	padding-top: 5px; 
-	width: 810px;
+	font-size: 40px;
+	margin-top: 10px;
+	width: 643px;
 }
 #mainWindow{
-	margin: 100px;
-	margin-top: 0px;
+	margin-left: 100px;
+	margin-bottom: 20px;
 	width: 350px;
-	height: 220px;
+	height: 180px;
 	font-size: 40px;
 }
 #div1{
@@ -181,6 +32,7 @@ button:active{
 	border-radius: 15px;
 	border-color: black;
 	border-width: 13px;
+	padding: 25px;
 }
 #div2{
 	width: 550px;
@@ -190,12 +42,24 @@ button:active{
 	border-color: black;
 	border-width: 13px;
 	margin:25px;
-	margin-top:50px;
+	padding-top: 7px;
 }
 h1{
 	font-size: 45px;
 	text-align: center;
 }
-table{
-	margin-left: 100px;
+#tableNumpad{
+	/*margin-left: 100px;*/
+}
+#mainTable{
+	margin-top: 0px;
+	margin-left: 90px;
+	padding: 0px;
+	/*margin-left: 50px;*/
+}
+img{
+	padding: 20px;
+}
+img:hover{
+	transform: translate(0px, -17%);
 }
